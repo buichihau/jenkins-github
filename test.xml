@@ -1,0 +1,5 @@
+<extension name="500">
+    <condition field="destination_number" expression="^500$">
+        <action application="bridge" data="user/500"/> 
+    </condition>
+</extension>
